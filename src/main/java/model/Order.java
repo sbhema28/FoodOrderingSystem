@@ -13,9 +13,10 @@ public class Order {
         this.totalAmount = totalAmount;
     }
 
-    public String getOrderId() {
-        return orderId;
-    }
+    // Returns unique order ID
+public String getOrderId() {
+    return orderId;
+}
 
     public double getTotalAmount() {
         return totalAmount;
