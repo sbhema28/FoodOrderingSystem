@@ -17,10 +17,10 @@ public class Order {
 public String getOrderId() {
     return orderId;
 }
-
-    public double getTotalAmount() {
-        return totalAmount;
-    }
+// Returns the final bill amount
+public double getTotalAmount() {
+    return totalAmount;
+}
 /**
  * Displays customer billing information.
  */
