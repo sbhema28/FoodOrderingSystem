@@ -21,11 +21,10 @@ public String getOrderId() {
     public double getTotalAmount() {
         return totalAmount;
     }
-
-    /**
-     * Prints the customer bill.
-     */
-    public void printBill() {
+/**
+ * Displays customer billing information.
+ */
+public void printBill() {
         System.out.println("\n========== BILL ==========");
         System.out.println("Order ID : " + orderId);
         System.out.println("Total Amount : ₹" + totalAmount);
