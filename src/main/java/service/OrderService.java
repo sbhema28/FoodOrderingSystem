@@ -18,9 +18,9 @@ public class OrderService {
     }
 
     /**
-     * Generate unique order ID.
-     */
-    public String generateOrderId() {
+ * Creates a unique order ID using the current timestamp.
+ */
+public String generateOrderId() {
         return "ORD" + System.currentTimeMillis();
     }
 
