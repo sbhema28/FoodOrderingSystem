@@ -1,7 +1,7 @@
 package exceptions;
 
 /**
- * Exception thrown when a user tries to place an order with an empty cart.
+ * Custom exception used when checkout is attempted with no cart items.
  */
 
 public class EmptyCartException extends Exception {
