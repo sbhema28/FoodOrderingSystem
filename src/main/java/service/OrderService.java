@@ -61,10 +61,10 @@ public double calculateFinalBill(ArrayList<CartItem> cartItems) {
         return order;
     }
 
-    /**
-     * Show order history.
-     */
-    public void showOrderHistory() {
+   /**
+ * Displays all previously placed orders.
+ */
+public void showOrderHistory() {
 
         System.out.println("\n===== ORDER HISTORY =====");
 
