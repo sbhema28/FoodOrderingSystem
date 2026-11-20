@@ -5,8 +5,10 @@ package exceptions;
  */
 
 public class EmptyCartException extends Exception {
-
-    public EmptyCartException(String message) {
-        super(message);
-    }
+/**
+ * Creates an exception with a custom error message.
+ */
+public EmptyCartException(String message) {
+    super(message);
+}
 }
