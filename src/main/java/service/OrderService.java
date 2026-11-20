@@ -11,7 +11,7 @@ import model.Order;
  */
 public class OrderService {
 // Stores completed customer orders
-private List<Order> orderHistory;
+    private List<Order> orderHistory;
 
     public OrderService() {
         orderHistory = new ArrayList<>();
@@ -25,9 +25,10 @@ private List<Order> orderHistory;
     }
 
     /**
-     * Calculate total bill.
-     */
-    public double calculateFinalBill(ArrayList<CartItem> cartItems) {
+ * Calculates the total amount of all items in the cart.
+ */
+public double calculateFinalBill(ArrayList<CartItem> cartItems) {
+
 
         double total = 0;
 
