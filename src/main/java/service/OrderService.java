@@ -39,9 +39,9 @@ public double calculateFinalBill(ArrayList<CartItem> cartItems) {
         return total;
     }
 
-    /**
-     * Place order.
-     */
+   /**
+ * Creates and stores a new customer order.
+ */
     public Order placeOrder(ArrayList<CartItem> cartItems)
             throws EmptyCartException {
 
