@@ -13,10 +13,11 @@ public class Order {
         this.totalAmount = totalAmount;
     }
 
-    // Returns unique order ID
+    // Returns the unique order identifier
 public String getOrderId() {
     return orderId;
 }
+   
 // Returns the final bill amount
 public double getTotalAmount() {
     return totalAmount;
