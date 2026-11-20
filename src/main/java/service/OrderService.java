@@ -10,9 +10,8 @@ import model.Order;
  * Handles order placement and billing.
  */
 public class OrderService {
-// Stores completed customer orders
-    private List<Order> orderHistory;
-
+// Stores all completed customer orders
+private List<Order> orderHistory;    
     public OrderService() {
         orderHistory = new ArrayList<>();
     }
