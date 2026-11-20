@@ -48,8 +48,8 @@ public double calculateFinalBill(ArrayList<CartItem> cartItems) {
             throw new EmptyCartException(
                     "Cart is empty. Add items before checkout.");
         }
-
-        String orderId = generateOrderId();
+// Generate a new order before storing it
+String orderId = generateOrderId();
 
         double totalBill = calculateFinalBill(cartItems);
 
