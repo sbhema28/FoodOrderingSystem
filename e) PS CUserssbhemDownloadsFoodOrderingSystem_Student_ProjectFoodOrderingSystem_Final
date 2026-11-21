@@ -1,0 +1,15 @@
+[33m0a2647a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Added order creation workflow comments
+[33mc772c76[m Enhanced exception class documentation
+[33m9759220[m Documented order history storage
+[33mf6784d6[m Added placeOrder method documentation
+[33m4c15b18[m Added order ID getter documentation
+[33m51609cb[m Added total amount getter documentation
+[33m05c5d0b[m Added order ID generation documentation
+[33ma79439a[m Added constructor documentation to EmptyCartException
+[33med02883[m Added bill printing documentation
+[33m1e06566[m Added order history documentation
+[33mc768542[m Added bill calculation documentation
+[33m0a05e27[m Added documentation to EmptyCartException
+[33m773c78f[m Added comments to Order class
+[33m66b22c3[m Added comments to OrderService
+[33mc79700b[m Completed Order and Billing module
